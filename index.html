@@ -27,16 +27,16 @@
                 <legend>Please Enter all Boxes</legend>
 
                 <label for="first-name">First Name</label>
-                <input type="text" name="first-name" id="first-name">
+                <input type="text" name="first-name" id="first-name" required>
 
                 <label for="last-name">Last Name</label>
-                <input type="text" name="last-name" id="last-name">
+                <input type="text" name="last-name" id="last-name" required>
 
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" required>
 
                 <label for="rank-selector">What Rank are you?</label>
-                <select name="ranks" id="rank-selector">
+                <select name="ranks" id="rank-selector" required>
                     <option value="" disabled selected>Select your rank</option>
                     <option value="20kyu">20kyu</option>
                     <option value="19kyu">19kyu</option>
@@ -57,10 +57,10 @@
                 </select>
 
                 <label for="password">Password</label>
-                <input type="password" name="password" id="password">
+                <input type="password" name="password" id="password" required>
 
                 <label for="confirm-password">Confirm Password</label>
-                <input type="password" name="confirm-password" id="confirm-password">
+                <input type="password" name="confirm-password" id="confirm-password" required>
             </fieldset>
         </form>
         <button type="submit" value="submit" for="sign-up-form">Sign Up</button>
