@@ -11,6 +11,61 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="image">
+        <img class="main-image" src="baduk-image.jpeg">
+        <div class="logo-title">
+            <img class="main-logo" src="economy-games-svgrepo-com.svg">
+            <h1>Baduk</h1>
+        </div>
+    </div>
+    <div class="form">
+        <h3>This is not a real online service.</h3>
+        <h4>Sign-Up Form for the Amateur Baduk World Series</h4>
+        <h4 class="lower-text">Must be between the ranks of 20kyu and 5kyu</h4>
+        <form action="#" method="post" id="sign-up-form">
+            <fieldset>
+                <legend>Please Enter all Boxes</legend>
+
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name">
+
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+
+                <label for="rank-selector">What Rank are you?</label>
+                <select name="ranks" id="rank-selector">
+                    <option value="" disabled selected>Select your rank</option>
+                    <option value="20kyu">20kyu</option>
+                    <option value="19kyu">19kyu</option>
+                    <option value="18kyu">18kyu</option>
+                    <option value="17kyu">17kyu</option>
+                    <option value="16kyu">16kyu</option>
+                    <option value="15kyu">15kyu</option>
+                    <option value="14kyu">14kyu</option>
+                    <option value="13kyu">13kyu</option>
+                    <option value="12kyu">12kyu</option>
+                    <option value="11kyu">11kyu</option>
+                    <option value="10kyu">10kyu</option>
+                    <option value="9kyu">9kyu</option>
+                    <option value="8kyu">8kyu</option>
+                    <option value="7kyu">7kyu</option>
+                    <option value="6kyu">6kyu</option>
+                    <option value="5kyu">5kyu</option>
+                </select>
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" name="confirm-password" id="confirm-password">
+            </fieldset>
+        </form>
+        <button type="submit" value="submit" for="sign-up-form">Sign Up</button>
+        <h5>Have an account already? <a href="#">Log In</a></h5>
+
+    </div>
 </body>
 </html>
