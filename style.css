@@ -63,11 +63,6 @@ body {
     margin-bottom: 10px;
 }
 
-form {
-    display: flex;
-    justify-content: center;
-}
-
 form h4 {
     margin-top: 1px;
     font-size: 1.5rem;
@@ -101,6 +96,10 @@ fieldset {
 button {
     margin: 20px auto;
     width: 20%;
+}
+
+.button {
+    display: flex;
 }
 
 h5 {
