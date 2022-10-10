@@ -22,7 +22,7 @@
         <h3>This is not a real online service.</h3>
         <h4 class="upper-text">Sign-Up Form for the Amateur Baduk World Series</h4>
         <h4 class="lower-text">Must be between the ranks of 20kyu and 5kyu</h4>
-        <form action="#" method="post" id="sign-up-form">
+        <form action="#" method="post" id="sign-up-form" onsubmit="return validateMyForm();">
             <fieldset>
                 <h4>Sign Up Now</h4>
                 <div class="row">
@@ -68,12 +68,12 @@
                 <div class="row">
                     <div class="item">
                         <label for="password">Password</label>
-                        <input type="password" name="password" id="password" required>
+                        <input minlength="5" type="password" name="password" id="password" required>
                     </div> 
 
                     <div class="item">
                         <label for="confirm-password">Confirm Password</label>
-                        <input type="password" name="confirm-password" id="confirm-password" required>
+                        <input minlength="5" type="password" name="confirm-password" id="confirm-password" required>
                     </div>
                 </div>
             </fieldset>
@@ -84,5 +84,6 @@
         <h5>Have an account already? <a href="#">Log In</a></h5>
 
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
